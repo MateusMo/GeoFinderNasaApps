@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    border-style: solid;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 15px;
+}
+
+img{
+    width: 25%;
+}
+.button{
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border-radius: 15px;
+
+}
+
+.box{
+    border-style: solid;
+    padding: 1rem;
+    border-radius: 15px;
+
+}
+
+.button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}

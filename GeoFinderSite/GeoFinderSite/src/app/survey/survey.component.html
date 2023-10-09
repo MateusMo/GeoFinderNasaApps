@@ -1,0 +1,11 @@
+<div class="container">
+    <form class="box">
+        <img src="../../assets/lupa.png">
+        <input [ngModelOptions]="{standalone: true}" [(ngModel)]="this.latitude" class="input" type="text" placeholder="Latitude">
+        <input [ngModelOptions]="{standalone: true}" [(ngModel)]="this.longitude" class="input" type="text" placeholder="Longitude">
+        <input [ngModelOptions]="{standalone: true}" [(ngModel)]="this.zoom" class="input" type="text" placeholder="Zoom">
+        <button (click)="Find()" class="button"> Find Location </button>
+        <h2 *ngIf="this.base64 != ''">Your Map</h2>
+        <img *ngIf="this.base64 != ''" [src]="this.base64" alt="">
+    </form>
+</div>

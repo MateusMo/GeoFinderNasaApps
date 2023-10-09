@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".ui.QuizzesActivity">
+
+    <ImageButton
+        android:id="@+id/button_arrowback3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="@color/white"
+        app:srcCompat="@drawable/arrow_back_ios_24"
+        android:contentDescription="@string/arrowleft" />
+
+    <TextView
+        android:id="@+id/tv_quizzes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="18sp"
+        android:text="@string/quizzes"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question goes here"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/option1Button"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:text="Option 1"/>
+
+    <Button
+        android:id="@+id/option2Button"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 2"/>
+
+    <Button
+        android:id="@+id/option3Button"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 3"/>
+
+    <Button
+        android:id="@+id/option4Button"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 4"/>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_marginTop="30sp"
+        android:backgroundTint="@color/red_nasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Question"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

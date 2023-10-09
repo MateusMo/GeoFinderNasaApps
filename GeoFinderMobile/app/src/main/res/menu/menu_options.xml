@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_option_1"
+        android:title="How to use this app"
+        />
+    <item
+        android:id="@+id/menu_option_2"
+        android:title="Quizzes"
+        />
+    <item
+        android:id="@+id/menu_option_3"
+        android:title="About Geology"
+        />
+</menu>

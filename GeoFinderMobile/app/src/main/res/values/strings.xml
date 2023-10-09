@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">GeoFinder</string>
+    <string name="longitude">Longitude:</string>
+    <string name="zoom">Zoom:</string>
+    <string name="find_location">Find Location</string>
+    <string name="generate_random_location">Generate Random Location</string>
+    <string name="descriptionLogotype">An image of the logo, showing a magnifying glass and inside the magnifying glass one can see mountains, sky and moon.</string>
+    <string name="how_to_use_this_app">How to use this App?</string>
+    <string name="quizzes">Quizzes</string>
+    <string name="about_geology">About Geology</string>
+    <string name="here_s_your_map">Here\'s your map!</string>
+    <string name="example_longitude">Example: -74.0060 or -151.2093</string>
+    <string name="example_latitude">Example: 40.7128 or -33.8688</string>
+    <string name="latitude">Latitude:</string>
+    <string name="howtousethisapp1">This app retrieves images of our planet from NASA\'s satellites. To access the images, you can set a latitude, a longitude, and a zoom level, which is the level of magnification you wish to view.</string>
+    <string name="howtousethisapp2">To set the latitude, you must choose a value between -90 and +90. Use 4 decimal places for the highest precision of the app. For example: Latitude of New York: 40.7128; Latitude of Sydney: -33.8688.</string>
+    <string name="howtousethisapp3">To set the longitude, choose values between -180 and +180. Use 4 decimal places for the highest precision in your search. For example: Longitude of New York: -74.0060; Longitude of Sydney: 151.2093.</string>
+    <string name="howtousethisapp4">In latitude, negative numbers indicate South, and positive values indicate North. The equator is used as the reference point.</string>
+    <string name="howtousethisapp5">In longitude, negative numbers indicate West, and positive values indicate East. The Greenwich Meridian is used as the reference point.</string>
+    <string name="howtousethisapp6">Think about your current location, is your latitude positive or negative? And your longitude?</string>
+    <string name="howtousethisapp7">In this app, you can also set random values for latitude, longitude, and zoom. This way, you can be surprised by places you didn\'t expect.</string>
+    <string name="howtousethisapp8">Furthermore, you can download maps of your choice and view information about the location.</string>
+    <string name="howtousethisapp9">A dynamic and fun way to learn more about our planet.</string>
+    <string name="howtousethisapp10">We hope you enjoy this app with pleasure.</string>
+    <string name="arrowleft">A left-pointing arrow is a button with the function of going back.</string>
+    <string name="about_geology_text">   Geology is the scientific study of the Earth\'s structure, composition, and processes that have shaped our planet over millions of years. It plays a crucial role in understanding the Earth\'s history, natural resources, and environmental changes. Geologists are the detectives of the Earth, investigating its mysteries, and their work has a profound impact on our daily lives.\n\n Geologists examine the Earth\'s rocks, minerals, fossils, and landscapes to decipher the secrets hidden beneath the surface. They study earthquakes, volcanoes, and landslides to predict and mitigate natural disasters, making our communities safer. Geologists also help locate valuable resources like oil, minerals, and groundwater, supporting industries and economies worldwide.\n\n For everyday people, geology influences everything from clean drinking water to stable infrastructure. Geologists contribute to urban planning, ensuring safe construction and minimizing geological hazards in cities. They assess environmental impact and guide sustainable practices, safeguarding our planet for future generations.\n\n This app, which provides images of Earth from NASA satellites, is a valuable tool for geologists. It offers a unique perspective on our planet, aiding geologists in studying landforms, climate patterns, and environmental changes. These high-resolution images enhance research and education in geology, allowing experts and enthusiasts alike to explore Earth\'s beauty and mysteries from space.</string>
+</resources>
